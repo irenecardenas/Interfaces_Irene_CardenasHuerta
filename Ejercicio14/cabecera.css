@@ -1,0 +1,80 @@
+html{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.sombraD{
+	box-shadow: 3px 3px 4px #babda8; 
+}
+
+.cajaRedonda{
+	position: relative;
+	height: 7em;
+	width: 58em;  	 
+	box-sizing: border-box;
+	background: linear-gradient(green 85%, greenyellow);
+	background-color: green;
+	border-radius: 1em;  
+	padding: 1.5em 1.2em 0 1.5em;
+}
+
+#contenido {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#contenido h1{
+	color: black;
+	text-shadow: 0px 1px 3px white;
+	font-family: sans-serif;			  
+	margin: 0px;
+	text-align: left;
+}
+
+#contenido p.subtitulo{
+	color: black;			 
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0px;
+	text-align: left;				
+}
+
+#menu{   
+	position: absolute;		  	
+	margin-right: 1em;
+	right: 0px;
+	bottom: 0px;			                  			 
+}
+
+#menu ul{
+	margin: 0;
+	padding: 0; 
+	list-style: none;  		
+	display: flex;
+}
+
+#menu ul li {
+	width: 6em;
+	margin-left:2px;
+	background: linear-gradient(to left, greenyellow, white, greenyellow);
+	background-color: greenyellow;			 
+	border-radius: 5px;			 
+} 
+
+#menu ul li a {
+	display: block; 
+	line-height: 2.1em; 
+	text-decoration: none; 
+	color: black;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	font-family: arial, sans-serif;
+} 
+
+#menu ul li a:hover {
+	border-radius: 5px;  
+	background: linear-gradient(to left, orange, white, orange);
+	background-color: orange;
+}

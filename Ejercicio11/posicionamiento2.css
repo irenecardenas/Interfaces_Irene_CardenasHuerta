@@ -1,0 +1,83 @@
+#fija {
+	position:fixed;
+	width:7.7rem;
+	height:3.43rem;
+	z-index:2;
+	background-color: #4f787e;
+	right: 0px;
+	bottom: 0px;
+}
+
+.tipo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	color: #715a86 ;
+}
+
+#estatica_exp{
+	position: static;
+	background-color: #103e44;
+	color: #e9e6b0;
+	width: 18.75rem;
+	margin: 0.6rem;
+}
+
+#estatica_imp{
+	background-color: #69411c;
+	color: #eed3b9;
+	width: 18.75rem;
+	margin: 0.6rem;
+}
+
+#absoluta1{
+	position:absolute;
+	background-color: #16454b;
+	bottom: 120px;
+	right: 50px;
+	color: #eed3b9;
+	height: 6rem;
+	margin: 0.6rem;
+	width: 18.75rem;
+}
+
+#absoluta2{
+	position:absolute;
+	left: 167px; 
+	top: 284px; 
+	background-color: #6e5783; 
+	color: #cfcb80; 
+	height: 3rem; 
+	width: 37rem;
+	margin: 0.6rem;
+	z-index:0;
+}
+
+#absoluta3{
+	position:absolute; 
+	left: 26px; 
+	top: 305px; 
+	background-color: #72461c; 			
+	color: #75969b; 
+	height: 4.375rem; 
+	margin: 0.6rem;
+	width: 18.75rem;
+	z-index:1;
+}
+
+#relativa{
+	 position:relative;
+	 top:100px;
+	 left:40px;
+	 width:18.75rem;
+	 background-color:#381e50;
+	 color:#f1eeb4;
+} 
+
+#sticky{
+	 position:sticky;
+	 bottom:0px;
+	 left:0px;
+	 width:18.75rem;
+	 background-color:#381e50;
+	 color:#ee2dbb;
+} 
