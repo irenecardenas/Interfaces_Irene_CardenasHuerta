@@ -1,0 +1,46 @@
+li[id^="pregunta"] {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.90em;
+	list-style-type: square;
+	color: #ab08d4;
+}
+
+td[colspan="2"], td[rowspan="2"]{
+	background-color: #1f4c52;
+}
+
+td[colspan="3"], td[rowspan="3"] {
+	background-color: #bdb762;
+}
+
+td[rowspan="4"], td[colspan="4"] {
+	background-color: #d6b291;
+}
+
+span.cursiva{
+	font-style: italic;
+}
+
+span.negrita{
+	font-weight: bold;
+}
+
+.comentarios {
+	font-style: italic;
+	margin-left: 10%;
+	border: thin dotted #b6895f;
+	margin-right: 10%;
+}
+
+li[id^="pregunta"] span.negrita {			
+	background-color: #ffffa2;
+}
+
+.sin_recuadro + p {
+	text-decoration: underline;
+}
+
+li [id]>a {
+	background-color: #78618d;
+}
+
