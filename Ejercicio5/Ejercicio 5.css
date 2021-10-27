@@ -1,0 +1,46 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 1000px;
+    border: 1px solid black;
+}
+
+.container1{
+    background-color: rgb(180, 180, 180);
+}
+.container2{
+    background-color: lightseagreen;
+}
+
+.container1>div:nth-child(1){
+    order: 4;
+    flex-grow: 1;
+}
+.container1>div:nth-child(2){
+    order: 1;
+    flex-grow: 1;
+}
+.container1>div:nth-child(3){
+    order: 2;
+    flex-grow: 3;
+}
+.container1>div:nth-child(4){
+    order: 3;
+    flex-grow: 4;
+}
+
+.container2>div:nth-child(1){
+    flex-grow: 1;
+}
+.container2>div:nth-child(2){
+    flex-grow: 2;
+}
+.container2>div:nth-child(3){
+    flex-grow: 1;
+}

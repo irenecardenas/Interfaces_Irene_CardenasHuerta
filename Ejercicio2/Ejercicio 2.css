@@ -1,0 +1,20 @@
+div.container{
+    background-color: aquamarine;
+    height: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5em;
+    width: 12em;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: orangered;
+}
